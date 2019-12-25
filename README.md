@@ -1,6 +1,6 @@
 # **Mutation testing for solidity language**
 Universal mutator tool is a tool based purely on regexp-specified rewrite of code lines for mutation generation, including multi-language rules aided by special rules for different languages .
-More information about universal mutator can be found on [GitHub](https://github.com/agroce/universalmutator)
+More information about universal mutator can be found on [UniversalMutator](https://github.com/agroce/universalmutator)
 
 This is an extend for universal mutator tool  which has effective rules for solidity language . These rules can  regenerate 10 of 15 famous faulty smart contracts, which have result in millions of dollars loss.
 You can read more about the mutation operators which on (address of paper)
