@@ -3,7 +3,7 @@ Universal mutator tool is a tool based purely on regexp-specified rewrite of cod
 More information about universal mutator can be found on [UniversalMutator](https://github.com/agroce/universalmutator)
 
 This is an extend for universal mutator tool  which has effective rules for solidity language . These rules can  regenerate 10 of 15 famous faulty smart contracts, which have result in millions of dollars loss.
-You can read more about the mutation operators which on (address of paper)
+You can read more about the mutation operators which on [Paper](https://arxiv.org/abs/1912.04780)
 Rules are implemented by python regular-expression and can be found in *sol.rules*
 
 # **How To USE IT**
