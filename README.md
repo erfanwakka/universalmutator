@@ -7,7 +7,7 @@ You can read more about the mutation operators which on [Paper](https://arxiv.or
 Rules are implemented by python regular-expression and can be found in *sol.rules*
 
 # **How To USE IT**
-Download the package and go to soliditymutation directory . Then run the following command:
+Download the package and go to solidityMutator directory in universalmutator . Then run the following command:
 ```javascript
 python genmutants.py ./example/example.sol solidity sol.rules
 ```
