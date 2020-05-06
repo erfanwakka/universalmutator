@@ -7,10 +7,12 @@ You can read more about the mutation operators which on [Paper](https://arxiv.or
 Rules are implemented by python regular-expression and can be found in *sol.rules*
 
 # **How To USE IT**
-Download the package and go to solidityMutator directory in universalmutator . Then run the following command:
+Download the package and go to solidityMutator (from root of project navigate to /universalmutator/solidityMutator/) directory in universalmutator . Then run the following command:
 ```javascript
-python genmutants.py ./example/example.sol solidity sol.rules
+python genmutants.py ../../examples/example.sol  solidity sol.rules
+
 ```
+(you can put any smart contract in example folder and mutate it)
 if you have python compiler installed , it should generate a number of valid mutants and get the number of valid , not valid and redundant mutants .
 You can get more information about using it with 
 ```javascript
